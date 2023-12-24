@@ -125,7 +125,6 @@ const init = () => {
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  // bookmarkView.addHandlerClick();
 }
 
 init();
