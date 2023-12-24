@@ -114,6 +114,10 @@ const controlStateFromStorage = function () {
     bookmarkView.render(model.state.bookmarks);
   }
 }
+
+const newFeature = function() {
+  alert('Welcome to my app with new feature ');
+}
 const init = () => {
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerUpdateServings(controlServings);
@@ -125,7 +129,7 @@ const init = () => {
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  // bookmarkView.addHandlerClick();
+  newFeature();
 }
 
 init();
