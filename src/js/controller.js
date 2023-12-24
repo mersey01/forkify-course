@@ -114,6 +114,7 @@ const controlStateFromStorage = function () {
     bookmarkView.render(model.state.bookmarks);
   }
 }
+
 const init = () => {
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerUpdateServings(controlServings);
