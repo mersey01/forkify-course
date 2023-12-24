@@ -118,6 +118,7 @@ const controlStateFromStorage = function () {
 const newFeature = function() {
   alert('Welcome to my app with new feature ');
 }
+
 const init = () => {
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerUpdateServings(controlServings);
